@@ -1,4 +1,4 @@
 import { fetchPeople } from './fetch-people';
-import { drawSelectElement } from './draw-select-element';
+import { drawTableRow } from './draw-table-row';
 
-fetchPeople(drawSelectElement);
+fetchPeople(drawTableRow);

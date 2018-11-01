@@ -1,4 +1,4 @@
-export const drawSelectElement = (people) => {
+export const createSelectElement = (people) => {
 	const selectElement = document.createElement('select');
 
 	people.forEach(person => {
@@ -8,5 +8,5 @@ export const drawSelectElement = (people) => {
 		selectElement.append(selectOption);
 	});
 
-	document.body.append(selectElement);
+return selectElement;
 }
