@@ -1,5 +1,4 @@
-const API_TOKEN = '9a83d9f0192ca0b5c3a1385b82cea6b17a7cc505';
-const DOMAIN = 'https://professional-grill.pipedrive.com';
+import { API_TOKEN, DOMAIN } from './constants';
 
 export const fetchPeople = (callback) => {
 	fetch(`${DOMAIN}/v1/persons?start=0&api_token=${API_TOKEN}`)
