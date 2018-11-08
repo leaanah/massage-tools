@@ -1,2 +1,2 @@
-export const API_TOKEN = '9a83d9f0192ca0b5c3a1385b82cea6b17a7cc505';
+export const API_TOKEN = '18d2a28e055bdbd3e81dd4dd8887f0cd263bc400';
 export const DOMAIN = 'https://api.pipedrive.com';

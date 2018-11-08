@@ -1,0 +1,5 @@
+1. get constants API_TOKEN, DOMAIN
+2. fetch ppl using API_TOKEN, DOMAIN
+3. draw select element
+4. draw table row
+5. draw table
